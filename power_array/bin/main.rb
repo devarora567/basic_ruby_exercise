@@ -12,5 +12,5 @@ for i in (0...size)
 puts array[i]
 end
 puts 'Enter the power'
-puts "\n#{array.power(gets.chomp.to_i)}"
+puts "\n#{ array.power(gets.chomp.to_i) }"
 
