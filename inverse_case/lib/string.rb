@@ -1,7 +1,6 @@
-class String 
+class String
 
   def to_s
     swapcase
   end
 end
-
