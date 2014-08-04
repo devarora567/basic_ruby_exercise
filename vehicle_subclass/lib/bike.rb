@@ -8,7 +8,7 @@ class Bike < Vehicle
   end
 
   def to_s
-    "dealer name : #{ @dealer_name }, " + super
+    "Dealer name : #{ @dealer_name }, Vehicle name : #{ @name }, Vehicle price : #{ @price }"
   end
 
 end
