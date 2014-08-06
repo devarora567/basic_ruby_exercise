@@ -1,6 +1,6 @@
 class String
 
-  def reverse_words_in_sentence
+  def reverse_sentence
     split.reverse.join(' ')
   end
 end
