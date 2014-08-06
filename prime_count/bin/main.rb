@@ -1,4 +1,3 @@
 require_relative '../lib/prime'
 
-prime = Prime.new(30)
-print prime.display_prime_numbers
+print 1.generate_prime_numbers_upto(100)

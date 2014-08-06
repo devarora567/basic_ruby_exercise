@@ -1,16 +1,13 @@
 require 'prime'
 
-class Prime
+class Fixnum
 
-  def initialize(max)
-    @max = max
-  end
-
-  def display_prime_numbers
-    prime_numbers = []
-    1.step(@max) do |number|
+  def generate_prime_numbers_upto(max)
+    prime_numbers = [2]
+    1.step(max, 2) do |number|
       prime_numbers << number if number.prime?
     end 
     prime_numbers
   end
 end
+  
