@@ -10,4 +10,3 @@ class Fixnum
     prime_numbers
   end
 end
-  
