@@ -1,0 +1,3 @@
+require_relative '../lib/array'
+
+puts ['abc', 'def', 1234, 234, 'abcd', 'x', 'mnop', 5, 'on', 'zZzZ', { a: 1, b: 2 }, [1, 2, 3]].group_by_even_odd
