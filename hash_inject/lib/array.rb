@@ -14,7 +14,7 @@ class Array
 
   def group_by_even_odd
     result = Hash.new { |hash, key| hash[key] = [] }
-    group_by_length.inject({}) { |accumulator, (length, value )|
+    group_by_length.inject({}) { |accumulator, (length, value)|
       if length.even?
         result[:even] << value
       else
