@@ -1,11 +1,11 @@
 require_relative '../lib/string'
 
-string = String.new
-string_to_check = " "
-while ((string_to_check =~ /^q$/).nil?)
+loop do
   puts "Enter the string or press q/Q to exit "
-  string_to_check = gets.chomp.downcase
-  if ((string_to_check =~ /^q$/).nil?)
-    puts string.palindrome?(string_to_check)
+  input = gets.chomp.downcase
+  if !(input =~ /^q$/)
+    puts input.palindrome?
+  else
+    break
   end
 end
